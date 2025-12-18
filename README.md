@@ -34,6 +34,9 @@ This approach is inspired by **consistent hashing**, which is commonly used in r
 
 ---
 
+![WorkFlow](Infllion-Task/Load-Balancer Workflow.png)
+
+
 ##  Features
 
 * IP-based consistent routing (same IP → same node)
@@ -179,3 +182,4 @@ How it works:
 * The counter automatically resets after the time window
 
 ---
+
