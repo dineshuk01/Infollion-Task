@@ -24,6 +24,7 @@ This project fixes that problem by:
 
 ##  How the Load Balancer Works (In Simple Terms)
 
+
 1. A request comes in with an IP address
 2. The IP is converted into a number using a simple hash function
 3. That number decides which node should handle the request
@@ -33,8 +34,7 @@ This project fixes that problem by:
 This approach is inspired by **consistent hashing**, which is commonly used in real-world systems.
 
 ---
-
-![WorkFlow](Infllion-Task/Load-Balancer Workflow.png)
+<img width="2816" height="1536" alt="Load-Balancer Workflow" src="https://github.com/user-attachments/assets/f69586e4-8e96-4640-be9e-0bd8bcfcca19" />
 
 
 ##  Features
@@ -182,4 +182,5 @@ How it works:
 * The counter automatically resets after the time window
 
 ---
+
 
