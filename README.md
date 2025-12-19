@@ -22,7 +22,7 @@ This project fixes that problem by:
 
 ---
 
-##  How the Load Balancer Works (In Simple Terms)
+##  How the Load Balancer Works 
 
 
 1. A request comes in with an IP address
@@ -51,7 +51,7 @@ This approach is inspired by **consistent hashing**, which is commonly used in r
 
 ---
 
-## ▶️ How to Run This Project Locally
+##  How to Run This Project Locally
 
 ### 1️⃣ Prerequisites
 
@@ -182,5 +182,6 @@ How it works:
 * The counter automatically resets after the time window
 
 ---
+
 
 
