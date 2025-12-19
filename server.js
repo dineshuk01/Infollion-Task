@@ -17,8 +17,8 @@ let nodes = ["Node-A", "Node-B", "Node-C"];
 
 // Node Health 
 const nodeHealth = {
-"Node-A": false,
-"Node-B": false,
+"Node-A": true,
+"Node-B": true,
 "Node-C": true
 };
 
@@ -163,4 +163,5 @@ res.json({ message: `${count} requests simulated` });
 
 app.listen(PORT, () => {
 console.log(`Load Balancer API running on port ${PORT}`);
+
 });
